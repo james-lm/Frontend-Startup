@@ -21,7 +21,7 @@ gulp.task('squish-plugins', function() {
         'assets/scripts/plugins/bs/scrollspy.js',
         'assets/scripts/plugins/bs/tab.js',
         'assets/scripts/plugins/bs/affix.js',
-        'assets/scripts/plugins/owl.carousel.js',
+        // 'assets/scripts/plugins/owl.carousel.js',
         // 'scripts/main.js',
     ])
         // .pipe(plugins.uglify())
