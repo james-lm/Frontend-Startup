@@ -1,0 +1,297 @@
+// Intro
+
+.section-intro {
+    text-align: center;
+    padding: 60px 0 100px;
+
+    .copy-lg {
+        max-width: 1100px;
+        margin: auto;
+    }
+}
+
+.section-map-locations {
+    .clearfix;
+
+    padding-bottom: 60px;
+
+    .section-heading {
+        .clearfix;
+        margin-bottom: 24px;
+
+        .form-inline {
+            margin-bottom: 0;
+        }
+    }
+
+    .search-form {
+        margin-top: 16px;
+    }
+
+    .div.text-center {
+        border-top: 1px solid #eee;
+        padding-top: 24px;
+    }
+}
+
+.section-left {
+    float: left;
+}
+.section-right {
+    float: right;
+}
+
+.title-square {
+    font-size: 32px;
+    width: 160px;
+    border: 3px solid #875a85;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #875a85;
+    padding: 16px 0 24px;
+    position: relative;
+    margin-bottom: 50px;
+
+    &:after {
+        content: '';
+        width: 3px;
+        height: 30px;
+        display: block;
+        background: #875a85;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -16px;
+        margin: auto;
+        box-shadow: #fff -3px 0 0 0, #fff -6px 0 0 0, #fff -9px 0 0 0, #fff -12px 0 0 0, #fff 3px 0 0 0, #fff 6px 0 0 0, #fff 9px 0 0 0, #fff 12px 0 0 0;
+    }
+}
+
+/////
+
+
+.copy-h {
+    p {
+        font-size: 18px;
+    }
+    h3 {
+        color: @brand-primary;
+        font-size: 34px;
+        font-weight: normal;
+        margin: 0 0 5px;
+    }
+
+
+    ol,
+    ul {
+        padding-left: 20px;
+    }
+}
+
+
+.copy-lg {
+    p, & {
+        font-size: 22px;
+        line-height: 1.8;
+    }
+
+    ol,
+    ul {
+        padding-left: 20px;
+    }
+}
+
+.copy-page {
+    font-size: 16px;
+    line-height: 1.8;
+
+    p {
+        margin-bottom: 24px;
+    }
+
+    ol,
+    ul {
+        padding-left: 20px;
+    }
+}
+
+
+///
+
+
+.section-featured {
+    background: #f6f1f6;
+    padding: 70px 0 100px;
+}
+
+
+//
+
+.block {
+    position: relative;
+    height: 400px;
+    text-align: center;
+    padding: 50px 2% 78px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+
+    .icon {
+        height: 48px;
+        width: 70px;
+    }
+
+    h3 {
+        font-weight: 200;
+        text-transform: uppercase;
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.8;
+        margin-bottom: 30px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+}
+
+.block-dark {
+    background-color: #383c41;
+    color: #fff;
+}
+
+.block-map {
+    background-image: url('../images/placeholders/bg-map.jpg');
+    color: #fff;
+}
+
+.block-primary {
+    color: #fff;
+    background-color: @brand-primary;
+}
+
+
+
+.block-reason {
+    text-align: left;
+    font-size: 19px;
+    color: @gray-dark;
+
+    h2 {
+        font-weight: 400;
+        font-size: 38px;
+        margin: 0 0 27px;
+    }
+    ul {
+        padding-left: 30px;
+
+        li {
+            margin: 0 0 11px;
+            color: #875a85;
+        }
+    }
+
+
+    p {
+        margin-left: 0;
+    }
+}
+
+
+
+
+.modal-l2 {
+    .modal-dialog {
+        max-width: 500px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    .modal-body {
+        padding: 11px 38px 40px;
+    }
+
+    .modal-header {
+        border-bottom: 0;
+        padding-left: 38px;
+        padding-bottom: 0;
+        padding-top: 24px;
+    }
+
+    .modal-title {
+        font-size: 26px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .modal-header .close {
+        margin-top: -18px;
+        font-size: 26px;
+    }
+}
+
+
+.section-no-banner {
+    padding-top: 155px;
+    padding-bottom: 100px;
+    background: #F5F5F5;
+}
+
+
+///
+
+
+.media-icons {
+    .clearfix;
+
+    > * {
+        position: relative;
+        float: left;
+        width: 20%;
+        height: 158px;
+        display: block;
+        text-align: center;
+        line-height: 1.2;
+        font-size: 14px;
+        font-weight: 700;
+        border: 1px solid #D6D6D6;
+        padding: 22px;
+        margin-left: -1px;
+        //.transition(all .6s);
+        color: @gray;
+
+        @media (max-width: 768px) {
+            width: 100%;
+            float: none;
+        }
+
+        img {
+            width: 90px;
+            height: 70px;
+            margin: auto;
+            vertical-align: bottom;
+            display: block;
+        }
+
+        span {
+            margin-top: 18px;
+            display: block;
+            text-transform: uppercase;
+        }
+
+        &:hover {
+            z-index: 1;
+            text-decoration: none;
+            border-color: @brand-primary;
+            color: @brand-primary;
+            box-shadow: @brand-primary 0 0 0 1px inset;
+        }
+    }
+}
